@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-jibjiby",
+  "version": "0.0.1",
+  "description": "eslint config by jibjiby",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "jibjiby",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "dependencies": {
+    "eslint": "^8.29.0",
+    "eslint-plugin-import": "^2.26.0",
+    "prettier": "^2.8.1"
+  }
+}
