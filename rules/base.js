@@ -2,7 +2,7 @@ module.exports = {
   extends: ['eslint:recommended', 'plugin:import/recommended'],
   rules: {
     semi: ['error', 'never'],
-    'no-console': 'error',
+    'no-console': 'warn',
     'no-use-before-define': [
       'error',
       { functions: false, classes: true, variables: true },
